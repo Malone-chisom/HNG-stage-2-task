@@ -1,0 +1,35 @@
+.navber {
+    /* padding: 67px; */
+}
+
+.navbar-inner {
+    display: flex;
+    padding: 24px 67px;
+    gap: 1.67vw;
+
+}
+
+.navbr-left {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap: 3.125vw;
+    flex: 1 0 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 4px;
+}
+
+.icons {
+    display: flex;
+    width: 112px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.size-6 {
+    width: 10px;
+}

@@ -1,0 +1,17 @@
+.item-display-container {
+    /* width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 1fr); */
+    /* background-color: bisque; */
+    padding: 0 67px;
+}
+
+.item-display-container .top {
+    justify-content: center;
+    display: flex;
+    padding: 20px 0 24px 0;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    gap: 20px;
+}

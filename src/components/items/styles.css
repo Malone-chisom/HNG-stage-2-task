@@ -1,0 +1,44 @@
+.item-img-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+
+}
+
+.item-container {}
+
+.item-container img {
+    width: 100%;
+    height: auto;
+}
+
+.item-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-name {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.item-price {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.item-container div {
+    /* margin-top: 10px; */
+
+}
+
+.item-container p {
+    margin: 0;
+    padding: 0;
+}
