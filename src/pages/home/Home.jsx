@@ -4,6 +4,7 @@ import MissionStatement from '../../components/missionStatement/MissionStatement
 import './home.css'
 import ItemDisplay from '../../components/items/Items'
 import ItemsDispay from '../../components/itemsDisplay/ItemsDisplay'
+import SendMessage from '../../components/sendAMessage/SendMessage'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Header />
             <MissionStatement />
             <ItemsDispay />
+            <SendMessage />
         </div>
     )
 }

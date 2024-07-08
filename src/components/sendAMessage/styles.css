@@ -1,0 +1,80 @@
+.send-message-container {}
+
+.send-message {
+
+    display: flex;
+    /* border: 1px solid; */
+    padding: 24PX 96.07px;
+    gap: 20px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+    margin-bottom: 32px;
+}
+
+.left-child {
+    width: 50%;
+    padding: 52px;
+    border: 1px solid;
+    height: 270px;
+    background-color: #2A3517;
+    color: white;
+}
+
+.take {
+    display: flex;
+    gap: 16px;
+}
+
+.ppp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23.5px;
+}
+
+.send-message .btn {
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+.seller {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.yafeh {
+    /* color: ; */
+    /* border: 1px solid; */
+    text-align: center;
+    font-size: max(2.35vw, 8px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.right-child {
+    width: 50%;
+    height: 270px;
+    overflow: hidden;
+}
+
+.right-child-inner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.right-child img {
+    width: 100%;
+    height: auto;
+}

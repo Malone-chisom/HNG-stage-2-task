@@ -16,12 +16,29 @@ import image_9 from './image_9.png'
 import image_10 from './image_10.png'
 import image_11 from './image_11.png'
 
+import profile from './profile-pic.png'
+import message from './outline-message.png'
+import line from './line.png'
+import rect from './Rect.png'
+import paypal from './logos_paypal.png'
+import mastercard from './logos_mastercard.png'
+import visa from './logos_visa.png'
+
+
+
 export const assets = {
     logo,
     person,
     cart,
     search,
-    headerbg
+    headerbg,
+    profile,
+    message,
+    line,
+    rect,
+    paypal,
+    mastercard,
+    visa
 }
 
 export const item_list = [
