@@ -4,7 +4,7 @@ import './styles.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            {/* <div>
+            <div>
                 <div className='footer-container'>
                     <div>
                         <div className='footer-left'>
@@ -62,7 +62,7 @@ const Footer = () => {
 
 
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }

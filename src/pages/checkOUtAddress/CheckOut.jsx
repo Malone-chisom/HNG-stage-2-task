@@ -11,7 +11,7 @@ const CheckOut = () => {
                 <div className='check-out'>
                     <div className='checkout-1'>
                         <h2>Check out</h2>
-                        <div style={{ display: 'flex' }}>
+                        <div style={{ display: 'flex', margin: "5px", gap: "20px" }}>
                             <p>Shipping address</p>
                             <p>Payment</p>
                         </div>
@@ -42,8 +42,8 @@ const CheckOut = () => {
                                 <input type="text" name="optional" id="optional" />
                             </div>
                             <div>
-                                <button>
-                                    <PaystackButton>continue with payment   </PaystackButton>
+                                <button style={{ backgroundColor: "#2A3517" }}>
+                                    <PaystackButton style={{ backgroundColor: "#2A3517" }}>continue with payment   </PaystackButton>
                                 </button>
 
                             </div>
