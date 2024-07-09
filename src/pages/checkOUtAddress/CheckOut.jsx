@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../../assets/assets'
 import './styles.css'
+import { PaystackButton } from 'react-paystack'
 
 const CheckOut = () => {
     return (
@@ -42,7 +43,7 @@ const CheckOut = () => {
                             </div>
                             <div>
                                 <button>
-                                    countinue with shipping
+                                    <PaystackButton>continue with payment</PaystackButton>
                                 </button>
 
                             </div>

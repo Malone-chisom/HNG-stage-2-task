@@ -133,3 +133,11 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 842px) {
+
+    .footer-container {
+        margin-top: 50px;
+    }
+
+}

@@ -6,6 +6,7 @@
     /* border: 1px solid; */
     padding: 24PX 96.07px;
     gap: 20px;
+    background-color: red;
 }
 
 .line {
@@ -113,7 +114,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
 
+    .left-child,
+    .right-child {
+        width: 60%;
+    }
+
+}
+
+
+@media (max-width: 842px) {
+
+    .send-message-container {
+        display: none;
+    }
 
 }
