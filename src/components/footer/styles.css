@@ -146,6 +146,19 @@ ul {
 
     .footer-left {
         grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .footer-left div h3 {
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .footer-left {
+        grid-template-columns: 1fr;
     }
 
 }
