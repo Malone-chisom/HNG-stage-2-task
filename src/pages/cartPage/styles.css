@@ -78,3 +78,21 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (max-width: 570px) {
+    .umaylikeimg {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .dispay {
+        display: none;
+
+    }
+
+    .iii {
+        font-size: max(.14vw, 12px);
+    }
+
+}

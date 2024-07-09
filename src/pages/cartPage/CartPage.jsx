@@ -59,7 +59,7 @@ const CartPage = () => {
                                 <p>color cotton </p>
                             </div>
                             <div style={{ display: "flex", }}>
-                                <div>
+                                <div className='dispay'>
                                     <img style={{ width: "80px", height: 'auto' }} src={assets.quantity} alt="" />
                                 </div>
                                 <div>
@@ -70,8 +70,8 @@ const CartPage = () => {
                         </div>
 
                     </div>
-                    <div>
-                        kfkfkkfk
+                    <div className='dispay'>
+                        66,700.00
                     </div>
                 </div>
                 <div className='iii'>
@@ -85,7 +85,7 @@ const CartPage = () => {
                                 <p>color cotton </p>
                             </div>
                             <div style={{ display: "flex", }}>
-                                <div>
+                                <div className='dispay'>
                                     <img style={{ width: "80px", height: 'auto' }} src={assets.quantity} alt="" />
                                 </div>
                                 <div>
@@ -96,8 +96,8 @@ const CartPage = () => {
                         </div>
 
                     </div>
-                    <div>
-                        kfkfkkfk
+                    <div className='dispay'>
+                        55,900,00
                     </div>
                 </div>
             </div>
