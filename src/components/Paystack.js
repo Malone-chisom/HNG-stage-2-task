@@ -4,12 +4,12 @@ import React from 'react';
 import { PaystackButton } from 'react-paystack';
 
 const PaystackPayment = () => {
-  const publicKey = 'your-public-key-here'; // Replace with your Paystack public key
+  const publicKey = ' pk_test_15f0d05dacd760b3799ea26afad4f13b62d37186'; // Replace with your Paystack public key
   const amount = 10000; // Amount in kobo (10000 kobo = 100 Naira)
   const email = 'user@example.com'; // Replace with the user's email
   const [name, setName] = React.useState('');
   const [phone, setPhone] = React.useState('');
-
+ 
   const componentProps = {
     email,
     amount,

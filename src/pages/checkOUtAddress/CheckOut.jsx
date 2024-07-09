@@ -43,7 +43,7 @@ const CheckOut = () => {
                             </div>
                             <div>
                                 <button>
-                                    <PaystackButton>continue with payment</PaystackButton>
+                                    <PaystackButton>continue with payment   </PaystackButton>
                                 </button>
 
                             </div>
@@ -71,7 +71,7 @@ const CheckOut = () => {
                                     </div>
                                     <div className='checkout-flex'>
                                         <h3>36,500.00</h3>
-                                        <p>remove</p>
+                                        {/* <p>remove</p> */}
                                     </div>
 
                                 </div>
