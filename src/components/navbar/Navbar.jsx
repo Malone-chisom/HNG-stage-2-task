@@ -48,12 +48,12 @@ const Navbar = () => {
 
                     </div>
                     <div className='icons'>
-                        <div>
+                        {/* <div>
                             <img src={assets.search} alt="" />
                         </div>
                         <div>
                             <img src={assets.person} alt="" />
-                        </div>
+                        </div> */}
                         <div>
                             <Link to="/cart">
                                 <img src={assets.cart} alt="" />

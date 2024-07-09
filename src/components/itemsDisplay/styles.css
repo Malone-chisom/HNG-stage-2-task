@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr 1fr); */
     /* background-color: bisque; */
-    padding: 0 97px;
+    /* padding: 0 97px; */
 }
 
 .item-display-container .top {

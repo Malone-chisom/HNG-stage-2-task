@@ -1,6 +1,6 @@
-.navber {
-    /* padding: 67px; */
-}
+/* .navber {
+ 
+} */
 
 .navbar-inner {
     display: flex;
@@ -19,7 +19,7 @@
 
 .nav-links {
     display: flex;
-    gap: 4px;
+    gap: 30px;
 }
 
 .icons {
@@ -32,4 +32,10 @@
 
 .size-6 {
     width: 10px;
+}
+
+@media (max-width: 770px) {
+    .nav-links {
+        display: none;
+    }
 }

@@ -39,3 +39,16 @@
     align-items: center;
 
 }
+
+@media (max-width: 960px) {
+    .experience-statement {
+        font-size: max(1.40vw, 3px);
+    }
+}
+
+@media (max-width: 590px) {
+    .experience-statement {
+        padding: none;
+        font-size: max(1.20vw, 3px);
+    }
+}

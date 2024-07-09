@@ -23,6 +23,15 @@ import rect from './Rect.png'
 import paypal from './logos_paypal.png'
 import mastercard from './logos_mastercard.png'
 import visa from './logos_visa.png'
+import shoe1 from './shoe_1.png'
+import shoe2 from './shoe_2.png'
+import shoe3 from './shoe_3.png'
+import shoe4 from './shoe_4.png'
+import quantity from './Quantity.png'
+import deletez from './delete.png'
+
+
+
 
 
 
@@ -38,7 +47,15 @@ export const assets = {
     rect,
     paypal,
     mastercard,
-    visa
+    visa,
+    shoe1,
+    shoe2,
+    shoe3,
+    shoe4,
+    image_8,
+    image_11,
+    quantity,
+    deletez
 }
 
 export const item_list = [

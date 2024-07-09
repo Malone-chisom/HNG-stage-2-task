@@ -1,0 +1,22 @@
+.check-out {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 96.07px;
+    gap: 20px;
+
+}
+
+.check-out .checkout-flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    width: 100%;
+}
+
+.checkout-1,
+.checkout-2 {}
+
+.checkout-1 button {
+    width: 90%;
+    padding: 10px;
+}
