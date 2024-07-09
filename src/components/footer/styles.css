@@ -159,6 +159,7 @@ ul {
 
     .footer-left {
         grid-template-columns: 1fr;
+        background-color: ;
     }
 
 }
