@@ -76,3 +76,51 @@ button:hover {
     transform: scale(1.05);
     /* Slightly larger on hover */
 }
+
+
+@media (max-width: 520px) {
+    .header h2 {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: max(1.60vw, 12px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    .header p {
+        text-align: center;
+        font-family: Montserrat;
+        font-size: max(1vw, 10px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+    }
+
+    .header button {
+
+        background-color: white;
+        /* Green background */
+        border: none;
+
+        color: black;
+        /* White text */
+        padding: 11px 22px;
+        /* Some padding */
+        text-align: center;
+        /* Centered text */
+        text-decoration: none;
+
+        display: inline-block;
+
+        font-size: max(1.25vw, 12px);
+
+        margin: 4px 2px;
+
+        cursor: pointer;
+
+        transition: background-color 0.3s ease, transform 0.3s ease;
+
+    }
+
+}
