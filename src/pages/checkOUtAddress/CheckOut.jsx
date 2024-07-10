@@ -49,7 +49,7 @@ const CheckOut = () => {
                             </div>
                             <div style={{ marginTop: '10px', marginBottom: "15px" }}>
                                 <Link to="/PaymentSuccessPage ">
-                                    <button style={{ borderRadius: '8px', width: "100", border: 'none', backgroundColor: " #2A3517,", color: 'white', padding: '15px' }} >
+                                    <button style={{ borderRadius: '8px', width: "100", border: 'none', backgroundColor: "#2A3517 ", color: 'white', padding: '15px' }} >
                                         countinue with payment
                                     </button>
                                 </Link>

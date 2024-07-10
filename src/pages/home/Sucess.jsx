@@ -8,7 +8,7 @@ const Sucess = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 height: '70vh',
-                backgroundColor: '#f0f0f0',
+
             }}
         >
             <div
