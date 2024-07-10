@@ -162,3 +162,11 @@ ul {
     }
 
 }
+
+@media (max-width: 320px) {
+
+    .footer-right {
+        display: none;
+    }
+
+}
