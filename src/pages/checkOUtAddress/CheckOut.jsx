@@ -24,10 +24,10 @@ const CheckOut = () => {
                         <div>
                             shipping information`
                         </div>
-                        <div>
+                        <div className='fff'>
                             <div>
-                                <input type="text" name='fname' placeholder='First name' />
-                                <input type="text" name='lname' placeholder='Last name' />
+                                <input type="text" style={{ width: "50%" }} name='fname' placeholder='First name' />
+                                <input type="text" style={{ width: "50%" }} name='lname' placeholder='Last name' />
                             </div>
                             <div>
                                 <input type="text" name="address" id="address" placeholder='address' />
@@ -38,18 +38,18 @@ const CheckOut = () => {
                             <div>
                                 <input type="text" id='city' name="city" placeholder='City' />
                             </div>
-                            <div>
-                                <input type="text" name='country' id="country" placeholder='Country' />
-                                <input type="text" name='cityy' id="cityy" placeholder='City' />
-                                <input type="text" name='' id="cityy" placeholder='City' />
+                            <div style={{ display: "flex", gap: "4px" }}>
+                                <input style={{ width: "33%" }} type="text" name='country' id="country" placeholder='Country' />
+                                <input style={{ width: "33%" }} type="text" name='cityy' id="cityy" placeholder='City' />
+                                <input style={{ width: "33%" }} type="text" name='' id="cityy" placeholder='City' />
 
                             </div>
                             <div>
                                 <input type="text" name="optional" id="optional" />
                             </div>
-                            <div>
+                            <div style={{ marginTop: '10px', marginBottom: "15px" }}>
                                 <Link to="/PaymentSuccessPage ">
-                                    <button style={{ borderRadius: '8px', border: 'none', backgroundColor: " #2A3517,", color: 'white', padding: '15px' }} >
+                                    <button style={{ borderRadius: '8px', width: "100", border: 'none', backgroundColor: " #2A3517,", color: 'white', padding: '15px' }} >
                                         countinue with payment
                                     </button>
                                 </Link>
