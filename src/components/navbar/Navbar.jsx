@@ -10,7 +10,9 @@ const Navbar = () => {
                 <div className='navbar-inner'>
                     <div className='navbr-left'>
                         <div>
-                            <img src={assets.logo} alt="" />
+                            <Link to='/'>
+                                <img src={assets.logo} alt="" />
+                            </Link>
                         </div>
                         <div className='nav-links'>
                             <div>
@@ -48,12 +50,7 @@ const Navbar = () => {
 
                     </div>
                     <div className='icons'>
-                        {/* <div>
-                            <img src={assets.search} alt="" />
-                        </div>
-                        <div>
-                            <img src={assets.person} alt="" />
-                        </div> */}
+
                         <div>
                             <Link to="/cart">
                                 <img src={assets.cart} alt="" />

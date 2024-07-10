@@ -22,27 +22,30 @@ const CartPage = () => {
         <div className='cart-page'>
             <div className='cart-page-container'>
                 <h2>Your cart</h2>
-                {cart.length > 0 ? (
-                    cart.map(item => (
-                        <div className='cart-item' key={item.id}>
-                            <div>
-                                <img src={getImage(item.item_image)} alt={item.item_image} />
-                            </div>
+                <div>
+                    {cart.length > 0 ? (
+                        cart.map(item => (
+                            <div className='cart-item' key={item.id}>
+                                <div>
+                                    <img src={getImage(item.item_image)} alt={item.item_image} />
+                                </div>
 
-                            <div className='cart-item-details'>
-                                <p>{item.item_name}</p>
-                                <p>{item.item_price}</p>
-                                <div className='quantity-controls'>
-                                    <button onClick={() => updateQuantity(item.id, -1)}>-</button>
-                                    <span>{item.quantity}</span>
-                                    <button onClick={() => updateQuantity(item.id, 1)}>+</button>
+                                <div className='cart-item-details'>
+                                    <p>{item.item_name}</p>
+                                    <p>{item.item_price}</p>
+                                    <div className='quantity-controls'>
+                                        <button onClick={() => updateQuantity(item.id, -1)}>-</button>
+                                        <span>{item.quantity}</span>
+                                        <button onClick={() => updateQuantity(item.id, 1)}>+</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))
-                ) : (
-                    <p>Your cart is empty</p>
-                )}
+                        ))
+                    ) : (
+                        <p>Your cart is empty</p>
+                    )}
+                </div>
+
 
                 <div>
                     <h3>Product</h3>
@@ -62,7 +65,7 @@ const CartPage = () => {
                                 <div className='dispay'>
                                     <img style={{ width: "80px", height: 'auto' }} src={assets.quantity} alt="" />
                                 </div>
-                                <div>
+                                <div className='dispay'>
                                     <img src={assets.deletez} alt="" />
                                 </div>
                             </div>
@@ -88,7 +91,7 @@ const CartPage = () => {
                                 <div className='dispay'>
                                     <img style={{ width: "80px", height: 'auto' }} src={assets.quantity} alt="" />
                                 </div>
-                                <div>
+                                <div className='dispay'>
                                     <img src={assets.deletez} alt="" />
                                 </div>
                             </div>
@@ -192,7 +195,7 @@ const CartPage = () => {
                 </div>
 
             </div>
-            {/* <Footer /> */}
+
 
         </div>
 

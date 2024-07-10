@@ -11,7 +11,7 @@ const CheckOut = () => {
                 <div className='check-out'>
                     <div className='checkout-1'>
                         <h2>Check out</h2>
-                        <div style={{ display: 'flex', margin: "5px", gap: "20px" }}>
+                        <div style={{ display: 'flex' }}>
                             <p>Shipping address</p>
                             <p>Payment</p>
                         </div>
@@ -42,9 +42,12 @@ const CheckOut = () => {
                                 <input type="text" name="optional" id="optional" />
                             </div>
                             <div>
-                                <button style={{ backgroundColor: "#2A3517" }}>
-                                    <PaystackButton style={{ backgroundColor: "#2A3517" }}>continue with payment   </PaystackButton>
+                                {/* <PaystackButton> */}
+                                <button>
+                                    countinue with payment
                                 </button>
+                                {/* </PaystackButton> */}
+
 
                             </div>
                         </div>
@@ -52,17 +55,17 @@ const CheckOut = () => {
                     <div className='checkout-2'>
                         <div className=''>
                             <div className='ooo'>
-                                <div style={{ width: "100px", height: 'auto' }} className='oooimg'>
+                                <div style={{ width: "100px", height: 'auto', marginRight: "10px" }} className='oooimg'>
                                     <img style={{ width: "100%", height: 'auto' }} src={assets.image_11} alt="" />
                                 </div>
-                                <div className=''>
-                                    <div>
+                                <div >
+                                    <div >
                                         <p>Bo Soft Strap</p>
                                         <p>color cotton </p>
 
                                     </div>
                                     <div style={{ display: "flex", }}>
-                                        <div>
+                                        <div >
                                             <img style={{ width: "80px", height: 'auto' }} src={assets.quantity} alt="" />
                                         </div>
                                         <div>
@@ -84,7 +87,7 @@ const CheckOut = () => {
                         </div>
                         <div className=''>
                             <div className='ooo'>
-                                <div style={{ width: "100px", height: 'auto' }} className='oooimg'>
+                                <div style={{ width: "100px", height: 'auto', marginRight: "10px" }} className='oooimg'>
                                     <img style={{ width: "100%", height: 'auto' }} src={assets.image_11} alt="" />
                                 </div>
                                 <div className=''>

@@ -16,10 +16,10 @@ function App() {
         <Pages />
         <Footer />
       </div>
-
-
     </>
   )
+
+
 }
 
-export default App
+export default App;

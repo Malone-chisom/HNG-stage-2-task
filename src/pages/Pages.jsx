@@ -6,6 +6,7 @@ import CartPage from './cartPage/CartPage';
 import CheckOut from './checkOUtAddress/CheckOut';
 
 
+
 const Pages = () => {
     return (
         <div>
