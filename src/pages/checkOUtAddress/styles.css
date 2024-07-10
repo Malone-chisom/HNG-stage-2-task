@@ -18,14 +18,20 @@
     margin-right: 5px;
 }
 
-.checkout-1,
-.checkout-2 {
-    /* background-color: azure; */
-}
 
 .checkout-1 button {
     width: 90%;
     padding: 10px;
+}
+
+input {
+    /* width: 100%; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
 }
 
 

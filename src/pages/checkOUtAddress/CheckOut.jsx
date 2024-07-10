@@ -1,9 +1,15 @@
 import React from 'react'
 import { assets } from '../../assets/assets'
 import './styles.css'
-import { PaystackButton } from 'react-paystack'
+    ;
+import { Link } from 'react-router-dom';
+
+
+
 
 const CheckOut = () => {
+
+
     return (
         <div>
 
@@ -42,11 +48,14 @@ const CheckOut = () => {
                                 <input type="text" name="optional" id="optional" />
                             </div>
                             <div>
-                                {/* <PaystackButton> */}
-                                <button>
-                                    countinue with payment
-                                </button>
-                                {/* </PaystackButton> */}
+                                <Link to="/PaymentSuccessPage ">
+                                    <button style={{ borderRadius: '8px', border: 'none', backgroundColor: " #2A3517,", color: 'white', padding: '15px' }} >
+                                        countinue with payment
+                                    </button>
+                                </Link>
+
+
+
 
 
                             </div>

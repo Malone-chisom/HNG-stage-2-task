@@ -109,9 +109,9 @@ const CartPage = () => {
                 <div className='jjm' >
                     <p>Subtotal  ₦131,500.00</p>
                     <p>big Hobo Strap</p>
-                    <div>
+                    <div style={{ borderRadius: '8px' }}>
                         <Link to='/CheckOut'>
-                            <button>
+                            <button style={{ borderRadius: '8px' }}>
                                 check out
                             </button>
                         </Link>

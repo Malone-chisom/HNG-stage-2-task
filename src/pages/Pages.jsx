@@ -4,6 +4,9 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './home/Home';
 import CartPage from './cartPage/CartPage';
 import CheckOut from './checkOUtAddress/CheckOut';
+import Sucess from './home/Sucess';
+
+
 
 
 
@@ -14,6 +17,7 @@ const Pages = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/cart' element={<CartPage />} />
                 <Route path='/CheckOut' element={<CheckOut />} />
+                <Route path='/PaymentSuccessPage' element={<Sucess />} />
 
             </Routes>
 
