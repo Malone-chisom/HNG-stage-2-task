@@ -2,21 +2,13 @@ import React from 'react';
 import { useCart } from '../../appContext/CartContext'; // Import the custom hook
 import './styles.css'; // Create styles for the cart page
 import { assets, item_list } from '../../assets/assets';
+// item_list
 import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/Footer';
 
 
 const CartPage = () => {
-    const { cart, updateQuantity } = useCart(); // Use the custom hook to access cart and updateQuantity
-
-    const getImage = (imagePath) => {
-        try {
-            return require(`${imagePath}`);
-        } catch (err) {
-            console.error("Error loading image: ", err);
-            return null;
-        }
-    };
+    const { cart, updateQuantity, calculateTotalPrice } = useCart(); // Use the custom hook to access cart and updateQuantity
 
     return (
         <div className='cart-page'>
@@ -27,7 +19,7 @@ const CartPage = () => {
                         cart.map(item => (
                             <div className='cart-item' key={item.id}>
                                 <div>
-                                    <img src={getImage(item.item_image)} alt={item.item_image} />
+                                    <img src={item.item_image} alt={item.item_image} />
                                 </div>
 
                                 <div className='cart-item-details'>
@@ -107,7 +99,9 @@ const CartPage = () => {
 
             <div className='totalll'>
                 <div className='jjm' >
-                    <p>Subtotal  ₦131,500.00</p>
+                    <div className='total-price'>
+                        <p>Total Price: {calculateTotalPrice()}</p>
+                    </div>
                     <p>big Hobo Strap</p>
                     <div>
                         <Link to='/CheckOut'>
