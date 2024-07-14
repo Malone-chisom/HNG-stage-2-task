@@ -7,7 +7,7 @@ import axios from 'axios'
 
 const Items = () => {
 
-    // const { addToCart } = useCart();
+    const { addToCart } = useCart();
 
     // useEffect(() => {
     //     axios.get('https://timbu-get-all-products.reavdev.workers.dev/?organization_id=9ad65f77a7cd4743afe18860cad45f78&reverse_sort=false&page=1&size=10&Appid=4WVJ24YM4M5Q0P2&Apikey=e244455cc2fc4a3ca8e60f3981e6fd6720240713165657076297')
